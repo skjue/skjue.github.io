@@ -1,0 +1,203 @@
+body {
+  background-color: #E3DDCD;
+  margin-left: 0px;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 100px;
+}
+
+p {
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+}
+
+#title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  line-height: 20px;
+}
+
+#carousel, .carousel-image {
+  top: 380px;
+  width: 1440px;
+  height: 400px;
+}
+
+#carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#panel {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  z-index: 10;
+}
+
+#sushibutton {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+#sushibutton:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+#shrimpbutton {
+  position: absolute;
+  top: 320px;
+  left: 50px;
+}
+
+#shrimpbutton:hover {
+  opacity: 70%;
+  cursor: pointer;
+
+}
+
+#roebutton {
+  position: absolute;
+  top: 390px;
+  left: 50px;
+}
+
+#roebutton:hover {
+  opacity: 70%;
+  cursor: pointer;
+
+}
+
+#eggbutton {
+  position: absolute;
+  top: 460px;
+  left: 50px;
+}
+
+#eggbutton:hover {
+  opacity: 70%;
+  cursor: pointer;
+
+}
+
+#tempurabutton {
+  position: absolute;
+  top: 530px;
+  left: 50px;
+}
+
+#tempurabutton:hover {
+  opacity: 70%;
+  cursor: pointer;
+
+}
+
+#exit {
+  position: relative;
+  right: 80px;
+  top: 35px;
+}
+
+#exit:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+#bar {
+  position: absolute;
+  top: 200px;
+}
+
+#carousel-image-row {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0px;
+  transition: 0.5s left;
+}
+
+.carousel-image img {
+  height: 250px;
+  width: auto;
+}
+
+#tempura img:hover {
+  height: 260px;
+  width: auto;
+  cursor: pointer;
+  opacity: 85%;
+}
+
+#roe img:hover {
+  height: 260px;
+  width: auto;
+  cursor: pointer;
+  opacity: 85%;
+}
+
+#shrimp img:hover {
+  height: 260px;
+  width: auto;
+  cursor: pointer;
+  opacity: 85%;
+}
+
+#sushi img:hover {
+  height: 260px;
+  width: auto;
+  cursor: pointer;
+  opacity: 85%;
+}
+
+#egg img:hover {
+  height: 260px;
+  width: auto;
+  cursor: pointer;
+  opacity: 85%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#carousel-controls {
+  position: absolute;
+  top: 300px;
+  left: 40%;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#button-next,
+#button-previous {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}	
+
+#plates {
+  width: 1400px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 750px;
+  justify-content: space-around;
+}	
+
+#plates img {
+  width: 200px;
+}
